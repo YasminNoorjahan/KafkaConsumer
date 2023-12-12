@@ -61,6 +61,7 @@ public class KafkaConsumerConfig {
         Employee employee = (Employee) ois.readObject();
         ois.close();
         bais.close();*/
+
         System.out.println("Received Message in group test: " + message);
     }
 }
